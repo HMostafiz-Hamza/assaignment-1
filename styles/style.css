@@ -159,6 +159,7 @@ iframe{
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    margin-bottom: 50px;
 }
 
 .target-cards{
@@ -170,7 +171,7 @@ iframe{
 .target-card{
     display: flex;
     width: 364px;
-    padding: 40px;
+    padding: 20px;
     flex-direction: column;
     align-items: flex-start; 
     gap: 5px;
@@ -200,3 +201,69 @@ iframe{
     opacity: 0.7;
 }
 
+/* Need Help Styles */
+
+.nh-section{
+    display: flex;
+    width: 1060px;
+    padding: 64px 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 16px;
+}
+
+.nh-title{
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nh-des{
+    color: #FFF;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.feedback{
+    display: flex;
+    gap: 10px;
+}
+
+textarea{
+    display: flex;
+    width: 548px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    color: rgba(13, 19, 33, 0.40);
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    resize: none;
+}
+
+.submit{
+    width: 120px;
+    padding: 17px 20px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+}
