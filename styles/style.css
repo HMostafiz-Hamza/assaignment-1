@@ -201,6 +201,21 @@ iframe{
     opacity: 0.7;
 }
 
+.cbg1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.cbg2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05); 
+}
+
+.cbg3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
 /* Need Help Styles */
 
 .nh-section{
@@ -266,4 +281,30 @@ textarea{
     font-family: "Azeret Mono";
     font-size: 20px;
     font-weight: 600;
+}
+
+/* Footer styles */
+
+.footer{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-text{
+    color: #0D1321;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer img{
+    width: 36px;
+    height: 36px;
 }
