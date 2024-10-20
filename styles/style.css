@@ -60,6 +60,9 @@ main{
     flex-direction: column;
 }
 
+
+/* WWD section */
+
 .ww-d{
     display: flex;
     flex-direction: column;
@@ -68,8 +71,6 @@ main{
     background: rgba(13, 19, 33, 0.02);
     border-radius: 16px;
 }
-
-/* WWD section */
 
 .answer1{
     width: 80%;
@@ -133,5 +134,69 @@ main{
     font-size: 20px;
     font-weight: 600;
 
+}
+
+/* My Inspiration Section */
+
+.inspiration{
+    display: flex;
+    width: 1140px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 150px;
+}
+
+iframe{
+    padding: 32px;
+}
+
+/* My current target section */
+
+.MCT{
+    display: flex;
+    width: 1140px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.target-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.target-card{
+    display: flex;
+    width: 364px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 5px;
+}
+
+.card-title{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.card-link{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.card-des{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
 }
 
